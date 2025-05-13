@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB SPEECH API</title>
+</head>
+
+<body style="text-align: center;justify-items: center;">
+  <h1 id="heading">Speech color changer</h1>
+  <p id="desc" style="height: 50vh;width: 80vw;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;"></p>
+  <p id="result" style="margin-top:15vh;"></p>
+  <div style="display:flex;flex-direction:column;">
+    <div id="continuous-listening-container" style="margin-bottom:1rem">
+      <label for="continuous"> Continuous listening</label>
+      <input type="checkbox" id="continuous" />
+    </div>
+    <button id="start-listening" style="margin-bottom:1rem">Start Listening</button>
+    <button id="stop-listening" style="margin-bottom:1rem" disabled>Stop Listening</button>
+  </div>
+  <script src="./bundle/index.js"></script>
+</body>
+
+</html>
