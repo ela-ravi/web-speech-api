@@ -3,13 +3,13 @@
 [Reference](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 
 ## How to run this?
+Makes use of config from tsconfig.json
+> tsc -d -p ./tsconfig.json
+Goes with default config
+> tsc -d index.ts 
+Run any of the above commands in Command prompt to compile ts files to js files and open index.html in browser
 
-> tsc -d -p ./tsconfig.json // makes use of config from tsconfig.json
-or
-> tsc -d index.ts // goes with default config
-Run above command in Command prompt to compile ts files to js files and open index.html in browser
-
-# Steps followed in code
+## Steps followed in code
 
 - Create UI components
 - create SpeechRecognition Object
